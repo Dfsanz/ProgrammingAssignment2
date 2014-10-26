@@ -33,12 +33,12 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-# The cacheSolve function checks if the inverse of matrix x
-# has been computed and stored in cache memory. If the inverse
-# has not yet been computed, it sets the value in cache via
-# setsolve function.  If the inverse for x already exists in memory
-# then it shows the message "getting cached data" and returns the 
-# cached inverted matrix x
+## The cacheSolve function checks if the inverse of matrix x
+## has been computed and stored in cache memory. If the inverse
+## has not yet been computed, it sets the value in cache via
+## setsolve function.  If the inverse for x already exists in memory
+## then it shows the message "getting cached data" and returns the 
+## cached inverted matrix x
 
 cacheSolve <- function(x, ...) {
 
